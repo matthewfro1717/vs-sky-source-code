@@ -52,6 +52,7 @@ jobs:
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib git hxCodec https://github.com/polybiusproxy/hxCodec
           haxelib install hxcpp-debug-server
+          haxelib install newgrounds
           haxelib list
         shell: cmd
       - name: Create Version Tag
